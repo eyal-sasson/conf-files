@@ -31,3 +31,7 @@ noremap <C-e> <Cmd>NERDTreeToggle<CR>
 " terminal navigation
 tnoremap <Esc> <C-\><C-n>
 
+" multi cursor
+let g:VM_maps = {}
+let g:VM_maps["Add Cursor Down"] = "<A-Down>"
+let g:VM_maps["Add Cursor Up"] = "<A-Up>"

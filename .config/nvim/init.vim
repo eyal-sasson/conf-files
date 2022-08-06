@@ -23,6 +23,10 @@ call plug#begin()
 	Plug 'github/copilot.vim'
 	Plug 'numToStr/Comment.nvim'
 	Plug 'folke/which-key.nvim'
+	Plug 'ap/vim-css-color'
+	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'pwntester/octo.nvim'
 
 call plug#end()
 
@@ -43,6 +47,7 @@ lua <<EOF
 
 require('telescope').setup{}
 require('telescope').load_extension('fzf')
+require('telescope').load_extension('octo')
 
 require('toggleterm').setup{
 	open_mapping = '<c-t>'
@@ -51,5 +56,7 @@ require('toggleterm').setup{
 require('Comment').setup()
 
 require('which-key').setup{}
+
+require"octo".setup()
 
 EOF
