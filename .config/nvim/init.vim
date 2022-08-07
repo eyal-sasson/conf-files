@@ -15,6 +15,7 @@ call plug#begin()
 	Plug 'preservim/nerdtree'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-lua/popup.nvim'
 	Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 	Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 	Plug 'akinsho/toggleterm.nvim', {'tag' : 'v2.*'}
@@ -27,6 +28,8 @@ call plug#begin()
 	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'pwntester/octo.nvim'
+	Plug 'elianiva/telescope-npm.nvim'
+	Plug 'lewis6991/gitsigns.nvim'
 
 call plug#end()
 
@@ -58,5 +61,7 @@ require('Comment').setup()
 require('which-key').setup{}
 
 require"octo".setup()
+
+require('gitsigns').setup()
 
 EOF

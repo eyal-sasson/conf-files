@@ -35,3 +35,7 @@ tnoremap <Esc> <C-\><C-n>
 let g:VM_maps = {}
 let g:VM_maps["Add Cursor Down"] = "<A-Down>"
 let g:VM_maps["Add Cursor Up"] = "<A-Up>"
+
+" git
+noremap mgo <Cmd>Octo actions<CR>
+noremap mgb <Cmd>Gitsigns toggle_current_line_blame<CR>
