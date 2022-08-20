@@ -39,3 +39,6 @@ let g:VM_maps["Add Cursor Up"] = "<A-Up>"
 " git
 noremap mgo <Cmd>Octo actions<CR>
 noremap mgb <Cmd>Gitsigns toggle_current_line_blame<CR>
+
+" renamer
+nnoremap mr <cmd>lua require('renamer').rename()<cr>
