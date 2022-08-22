@@ -35,6 +35,7 @@ call plug#begin()
 	Plug 'filipdutescu/renamer.nvim', { 'branch': 'master' }
 	Plug 'neovim/nvim-lspconfig'
 	Plug 'anott03/nvim-lspinstall'
+	Plug 'sindrets/diffview.nvim'
 
 call plug#end()
 
