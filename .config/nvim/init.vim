@@ -5,6 +5,7 @@ set shiftwidth=4
 set completeopt
 set mouse=a
 set wildmenu
+set expandtab
 
 
 call plug#begin()
