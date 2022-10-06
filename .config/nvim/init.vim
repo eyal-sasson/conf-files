@@ -37,6 +37,7 @@ call plug#begin()
 	Plug 'neovim/nvim-lspconfig'
 	Plug 'anott03/nvim-lspinstall'
 	Plug 'sindrets/diffview.nvim'
+    Plug 'dstein64/nvim-scrollview'
 
 call plug#end()
 
