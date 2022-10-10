@@ -38,6 +38,7 @@ call plug#begin()
 	Plug 'anott03/nvim-lspinstall'
 	Plug 'sindrets/diffview.nvim'
     Plug 'dstein64/nvim-scrollview'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 
