@@ -32,7 +32,6 @@ call plug#begin()
 	Plug 'elianiva/telescope-npm.nvim'
 	Plug 'lewis6991/gitsigns.nvim'
 	Plug 'sitiom/nvim-numbertoggle'
-	Plug 'akinsho/git-conflict.nvim'
 	Plug 'filipdutescu/renamer.nvim', { 'branch': 'master' }
 	Plug 'neovim/nvim-lspconfig'
 	Plug 'anott03/nvim-lspinstall'
@@ -74,8 +73,6 @@ require('octo').setup()
 require('gitsigns').setup()
 
 require('numbertoggle').setup()
-
-require('git-conflict').setup()
 
 require('renamer').setup()
 
