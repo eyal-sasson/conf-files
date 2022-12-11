@@ -77,7 +77,15 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting vi-mode zsh-autosuggestions)
+plugins=(
+    dnf
+    git
+    git-auto-fetch
+    gh
+    vi-mode
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
