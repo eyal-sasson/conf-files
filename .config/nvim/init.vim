@@ -25,7 +25,6 @@ call plug#begin()
 	Plug 'github/copilot.vim'
 	Plug 'numToStr/Comment.nvim'
 	Plug 'folke/which-key.nvim'
-	Plug 'ap/vim-css-color'
 	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 	Plug 'nvim-lua/plenary.nvim'
 	Plug 'pwntester/octo.nvim'
