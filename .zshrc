@@ -82,11 +82,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    colored-man-pages
     dnf
     git
     git-auto-fetch
     gh
     vi-mode
+    web-search
+    z
     zsh-syntax-highlighting
     zsh-autosuggestions
 )
@@ -123,3 +126,5 @@ alias vi=nvim
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+eval $(thefuck --alias)
