@@ -128,3 +128,4 @@ alias vi=nvim
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval $(thefuck --alias)
+fortune -s | cowsay -r
