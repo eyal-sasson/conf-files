@@ -41,6 +41,12 @@ then
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 fi
 
+if [[ ! -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]]
+then
+    echo Installing zsh-autosuggestions plugin...
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+fi
+
 if ! command -v nvim > /dev/null
 then
     echo Installing Neovim...
