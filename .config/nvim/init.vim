@@ -71,8 +71,6 @@ require('octo').setup()
 
 require('gitsigns').setup()
 
-require('numbertoggle').setup()
-
 require('renamer').setup()
 
 require('lspconfig').tsserver.setup{}
