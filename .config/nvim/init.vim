@@ -37,6 +37,7 @@ call plug#begin()
 	Plug 'sindrets/diffview.nvim'
     Plug 'dstein64/nvim-scrollview'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'jssee/vim-delight'
 
 call plug#end()
 
