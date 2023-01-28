@@ -18,4 +18,4 @@ My configuration files ("dotfiles") for Linux.
     ```
     (Or if you prefer, use the web URL `https://github.com/eyal-sasson/conf-files.git` instead)
 
-3. When prompted to run the [bootstrap](/.config/yadm/bootstrap) file, agree (only supports Ubuntu and its derivatives for now).
+3. When prompted to run the [bootstrap](/.config/yadm/bootstrap) file, agree (only supports Debian and its derivatives for now).
