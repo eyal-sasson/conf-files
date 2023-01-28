@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if ! command -v apt > /dev/null
+then
+    echo "Only Debian-based systems are supported for now."
+    exit 1
+fi
+
 if ! command -v node > /dev/null
 then
     echo Installing nodejs...
