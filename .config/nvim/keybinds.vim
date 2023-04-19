@@ -46,5 +46,5 @@ noremap mgd <Cmd>DiffviewOpen<CR>
 noremap mgdc <Cmd>DiffviewClose<CR>
 
 " renamer
-nnoremap mr <cmd>lua require('renamer').rename()<cr>
+nnoremap mr <Plug>(coc-rename)
 

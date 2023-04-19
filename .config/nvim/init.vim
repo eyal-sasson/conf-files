@@ -31,7 +31,6 @@ call plug#begin()
 	Plug 'elianiva/telescope-npm.nvim'
 	Plug 'lewis6991/gitsigns.nvim'
 	Plug 'sitiom/nvim-numbertoggle'
-	Plug 'filipdutescu/renamer.nvim', { 'branch': 'master' }
 	Plug 'neovim/nvim-lspconfig'
 	Plug 'anott03/nvim-lspinstall'
 	Plug 'sindrets/diffview.nvim'
@@ -44,9 +43,13 @@ call plug#end()
 
 let NERDTreeShowHidden=1
 
-
 let g:material_style = "deep ocean"
 colorscheme material
+
+" copilot
+let g:copilot_filetypes = {
+            \ '*': v:true,
+            \ }
 
 " coc configuration
 source ~/.config/nvim/coc.vim
@@ -71,8 +74,6 @@ require('which-key').setup()
 require('octo').setup()
 
 require('gitsigns').setup()
-
-require('renamer').setup()
 
 require('lspconfig').tsserver.setup{}
 
