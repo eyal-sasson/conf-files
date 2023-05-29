@@ -6,6 +6,8 @@ set completeopt
 set mouse=a
 set wildmenu
 set expandtab
+set ignorecase
+set smartcase
 
 
 call plug#begin()
