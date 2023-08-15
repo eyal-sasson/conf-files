@@ -92,6 +92,7 @@ plugins=(
     z
     zsh-syntax-highlighting
     zsh-autosuggestions
+    thefuck
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -127,5 +128,4 @@ alias vi=nvim
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-eval $(thefuck --alias)
 fortune -s | cowsay -r
